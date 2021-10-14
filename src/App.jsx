@@ -6,6 +6,11 @@ import { ThemeProvider } from "./context/ThemeContext";
 import ModalContextProvider from "./context/ModalContext";
 import Modal1 from "./components/Modal1";
 import Modal2 from "./components/Modal2";
+import Counter from "./components/Counter";
+import Memo from "./components/Memo";
+import LayoutEffect from "./components/LayoutEfect";
+import CustomHook from "./components/CustomHook";
+import { useDebugValue } from "react";
 
 function App() {
   return (
@@ -22,6 +27,13 @@ function App() {
           <Modal2 />
         </ModalContextProvider>
       </div>
+
+      <Counter />
+
+      <Memo />
+
+      <LayoutEffect />
+      <CustomHook />
     </div>
   );
 }

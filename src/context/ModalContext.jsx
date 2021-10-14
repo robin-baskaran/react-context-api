@@ -5,7 +5,6 @@ export const ModalContext = createContext();
 const ModalContextProvider = ({ children }) => {
   const [modal, setModal] = useState(null);
 
-  console.log({ children });
   const showModal = (type) => {
     setModal(type);
   };
