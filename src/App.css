@@ -72,3 +72,18 @@
 }
 
 /* End of toggle view */
+
+/* Start of Modal Container */
+
+.modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.modal-item {
+  margin: 0 10px;
+}
+
+/* End of Modal Container */
